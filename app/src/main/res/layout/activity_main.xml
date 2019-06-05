@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#20A52D2D"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            style="@android:style/Widget.Holo.Light.ImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="216dp"
+            android:backgroundTint="@android:color/darker_gray"
+            app:srcCompat="@drawable/oculosharry2" />
+
+        <EditText
+            android:id="@+id/txtFindHarry"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:editable="false"
+            android:ems="10"
+            android:enabled="false"
+            android:fontFamily="@font/alegreya_sc"
+            android:inputType="text"
+            android:text="@string/txtFindHarry"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/txtNickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:enabled="false"
+            android:fontFamily="@font/alegreya_sc"
+            android:text="@string/txtNickname"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edtNickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/alegreya_sc"
+            android:inputType="text|textNoSuggestions"
+            android:text="@string/edtNickname" />
+
+        <TextView
+            android:id="@+id/txtDificuldade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:fontFamily="@font/alegreya_sc"
+            android:text="@string/txtDificuldade"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spDificuldade"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:textAlignment="viewStart" />
+
+        <Button
+            android:id="@+id/btnJogar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:backgroundTint="@android:color/darker_gray"
+            android:fontFamily="@font/alegreya_sc"
+            android:text="@string/btnJogar"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/btnClassificacao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:backgroundTint="@android:color/darker_gray"
+            android:fontFamily="@font/alegreya_sc"
+            android:text="@string/btnClassificacao"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

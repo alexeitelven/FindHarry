@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Find Harry</string>
+    <string name="txtFindHarry">Find Harry</string>
+    <string name="txtNickname">Informe seu Nickname:</string>
+    <string name="edtNickname" />
+    <string name="txtDificuldade">Escolha a dificuldade:</string>
+    <string name="btnJogar">Jogar</string>
+    <string name="btnClassificacao">Classificação</string>
+    <string name="txtTituloClassificacao">Classificação</string>
+    <string name="btnClassificacaoVoltar">Voltar</string>
+    <string name="txtTituloFacil">Dificuldade Fácil</string>
+    <string name="txtPontuação">player</string>
+    <string name="edtPontuacao">Pontuação: 0</string>
+    <string name="txtTituloDificil">Dificuldade Difícil</string>
+    <string name="txtDificuldadeNormal">Difículdade Normal</string>
+    <string name="txtEscolhaDificuldade">Escolha a Dificuldade:</string>
+    <string name="btnEscolheDificuldade">OK</string>
+    <string-array name="dificuldade_array">
+        <item>Fácil</item>
+        <item>Normal</item>
+        <item>Difícil</item>
+    </string-array>
+
+
+</resources>
